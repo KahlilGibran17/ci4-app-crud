@@ -82,11 +82,9 @@ index.php is now inside the public folder. Configure your web server to point th
 Do NOT expose the root folder to the internet.
 
 How to Use This Project
-Set up your database and categories table
+1. Set up your database and categories table
 
-Access /product to view the interface
+2. Add/edit/delete products via the web interface
 
-Add/edit/delete products via the web interface
-
-All data is loaded using AJAX and returned as JSON
+3. All data is loaded using AJAX and returned as JSON
 
