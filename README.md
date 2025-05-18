@@ -66,3 +66,27 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - json (enabled by default - don't turn it off)
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
 - [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+Setup
+Copy .env from env
+
+Configure:
+
+app.baseURL
+
+database.default.hostname, username, password, database
+
+Run migrations or create tables manually
+
+Important Change with index.php
+index.php is now inside the public folder. Configure your web server to point there.
+Do NOT expose the root folder to the internet.
+
+How to Use This Project
+Set up your database and categories table
+
+Access /product to view the interface
+
+Add/edit/delete products via the web interface
+
+All data is loaded using AJAX and returned as JSON
+
